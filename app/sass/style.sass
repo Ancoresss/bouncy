@@ -1,0 +1,151 @@
+@import 'fonts.sass'
+@import 'colors.sass'
+@import 'animation.sass'
+
+html
+  box-sizing: border-box
+
+*
+	margin: 0
+	padding: 0
+
+*, *:before, *:after 
+  box-sizing: inherit
+
+body
+	margin: 0
+	padding: 0
+	font-family: "opensansRegular"
+
+.container
+	width: 87%
+	margin-left: auto
+	margin-right: auto
+
+.header
+	background-image: url(../img/header_bg.png)
+	background-repeat: no-repeat
+	background-size: cover
+	padding-top: 38px
+	&-nav
+		display: flex
+		justify-content: space-between
+		align-items: center
+		&_logo
+			display: inline-block
+			text-transform: uppercase
+			text-decoration: none
+			color: white
+			font-family: "bigjohn"
+			font-size: 25px
+		&_menu
+			display: flex
+			list-style: none
+			&_item
+				padding: 5px 20px
+				text-decoration: none
+				color: white
+				border: 1px solid transparent
+				&:hover
+					border: 1px solid white
+					border-radius: 20px
+	&-center
+		margin-top: 210px
+		text-align: center
+		font-size: 18px
+		&_headline
+			font-family: "sourcesansproLight"
+			font-size: 40px
+			text-transform: uppercase
+			letter-spacing: 4px
+			color: white
+		&_p
+			font-family: "opensansLight"
+			margin-top: 27px
+			line-height: 25px
+			color: white
+	&-bottom
+		text-align: center
+		margin-top: 180px
+		&_btn
+			display: inline-block
+			text-decoration: none
+			color: white
+			background-color: $green
+			padding: 11px 15px
+			border-radius: 50%
+			margin-bottom: 40px
+			// animation: ping-pong 1s ease-in infinite 
+
+.about
+	&-blocks
+		display: flex
+		justify-content: center
+		align-items: center
+		margin: 100px 0
+	&-more
+		margin-right: 150px
+		&_headline
+			text-transform: uppercase
+			font-family: "sourcesansproLight"
+			font-size: 21px
+			letter-spacing: 4px
+			color: $bright
+		&_p
+			font-size: 15px
+			margin-top: 37px
+			line-height: 25px
+			color: $normal
+		&_link
+			display: inline-block
+			text-decoration: none
+			margin-top: 31px
+			padding: 8px 28px
+			border: 1px solid $bright
+			border-radius: 20px
+			color: $bright
+
+.details
+	background-color: #f3f3f3
+	padding: 73px 0
+	&-top
+		text-align: center
+		&_headline
+			text-transform: uppercase
+			font-family: "sourcesansproLight"
+			color: $bright
+			font-size: 21px
+			letter-spacing: 4px
+		&_p
+			margin-top: 29px
+			font-size: 15px
+			line-height: 24px
+			color: $normal
+		&_icons
+			margin-top: 55px
+			&_icon
+				display: inline-block
+				width: 57px
+				color: white
+				font-size: 28px
+				background-color: $green
+				padding: 14px 0
+				border-radius: 50%
+			&_mark
+				margin: 0 15px
+	&-bottom
+		margin: 54px 0 0 75px
+		&_headline
+			font-size: 20px
+			letter-spacing: 1px
+		&_info
+			display: flex
+			margin-top: 27px
+			line-height: 25px
+			color: $normal
+			&_long
+				margin-left: 157px
+.green
+	color: $green
+.bold
+	font-family: "opensansBold"

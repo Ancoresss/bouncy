@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "opensansRegular";
+  src: url(../fonts/opensans/OpenSans-Regular.ttf); }
+
+@font-face {
+  font-family: "opensansLight";
+  src: url(../fonts/opensans/OpenSans-Light.ttf); }
+
+@font-face {
+  font-family: "opensansBold";
+  src: url(../fonts/opensans/OpenSans-Bold.ttf); }
+
+@font-face {
+  font-family: "sourcesansproRegular";
+  src: url(../fonts/sourcesanspro/SourceSansPro-Regular.ttf); }
+
+@font-face {
+  font-family: "sourcesansproBold";
+  src: url(../fonts/sourcesanspro/SourceSansPro-Bold.ttf); }
+
+@font-face {
+  font-family: "sourcesansproLight";
+  src: url(../fonts/sourcesanspro/SourceSansPro-Light.ttf); }
+
+@font-face {
+  font-family: "bigjohn";
+  src: url(../fonts/bigjohn.otf); }
